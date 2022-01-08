@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Title -->
+        <title>Music Player</title>
+        <!-- Tab Icon -->
+        <link rel="icon" type="image/jpg" href="a.jpg" />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+        />
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="player-container">
+            <!-- Song -->
+            <div class="img-container">
+                <img src="img/jacinto-1.jpg" alt="Album Thumbnail" />
+            </div>
+            <!-- Song Name -->
+            <h2 id="title">My First Song</h2>
+            <!-- Song Artist -->
+            <h3 id="artist">Bebe Rexha</h3>
+            <!-- Audio -->
+            <audio src="music/jacinto-1.mp3"></audio>
+            <!-- Progress -->
+            <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+                <div class="duration-wrapper">
+                    <span id="current-time">0:00</span>
+                    <span id="duration">2:06</span>
+                </div>
+            </div>
+            <!-- Controls -->
+            <div class="player-controls">
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play" id="play" title="Play"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <p>Created with ❤️ By Ashish Kumar</p>
+            <!-- Credit -->
+            <p>
+                Projects and Course by:
+                <a href="https://zerotomastery.io/">zerotomastery.io</a>
+            </p>
+        </div>
+        <!-- Script -->
+        <script src="script.js"></script>
+    </body>
+</html>
